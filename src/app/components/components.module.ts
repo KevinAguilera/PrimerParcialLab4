@@ -6,9 +6,9 @@ import { TablaPaisesComponent } from './tabla-paises/tabla-paises.component';
 import { DetallePaisComponent } from './detalle-pais/detalle-pais.component';
 import { DetalleProductoComponent } from './detalle-producto/detalle-producto.component';
 import { ListaProductosComponent } from './lista-productos/lista-productos.component';
-
-
-
+import { ModificacionContainerComponent } from './modificacion-container/modificacion-container.component';
+import { AltaContainerComponent } from './alta-container/alta-container.component';
+import { BajaContainerComponent } from './baja-container/baja-container.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
@@ -19,9 +19,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     DetallePaisComponent,
     DetalleProductoComponent,
     ListaProductosComponent,
-  
-  
-   
+    ModificacionContainerComponent,
+    AltaContainerComponent,
+    BajaContainerComponent
   ],
   imports: [
     CommonModule,
@@ -35,8 +35,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     DetallePaisComponent,
     ListaProductosComponent,
     DetalleProductoComponent,
-   
- 
+    ModificacionContainerComponent,
+    AltaContainerComponent,
+    BajaContainerComponent
   ]
 })
 export class ComponentsModule { }
