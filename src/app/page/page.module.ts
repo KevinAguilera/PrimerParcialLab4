@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AltaProductoComponent } from './alta-producto/alta-producto.component';
+import { VerProductoComponent } from './ver-producto/ver-producto.component';
 
 import { BienvenidaComponent } from './bienvenida/bienvenida.component';
 import { LoginComponent } from './login/login.component';
@@ -14,8 +15,8 @@ import { ComponentsModule } from '../components/components.module';
 @NgModule({
   declarations: [
     AltaProductoComponent,
-  
-  
+    VerProductoComponent,
+
     BienvenidaComponent,
     LoginComponent,
     HomeComponent,
